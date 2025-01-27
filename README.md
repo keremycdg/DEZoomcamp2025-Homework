@@ -1,2 +1,2 @@
 # DEZoomcamp2025-Homework
-In this repository I will display the answers of the weekly assignments of Data Engineering Zoomcamp 2025.
+Go to each directory respectively to see the answers, scripts, and screenshots of the outputs/codes.
