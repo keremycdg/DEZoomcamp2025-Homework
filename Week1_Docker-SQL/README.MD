@@ -50,3 +50,15 @@ db:5432 -----------Answer is db:5432----------
 
 ![alt text](./Screenshots/homework1_3.PNG)
 
+### Question 4
+
+![alt text](./Screenshots/homework1_4.PNG)
+
+### Question 5
+
+![alt text](./Screenshots/homework1_5.PNG)
+
+### Question 6
+
+![alt text](./Screenshots/homework1_6.PNG)
+
