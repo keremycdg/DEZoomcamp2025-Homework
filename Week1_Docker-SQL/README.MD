@@ -48,5 +48,5 @@ db:5432 -----------Answer is db:5432----------
 
 ### Question 3
 
-![ScreenShot](/c/Users/HSY/Desktop/homework1_3.png)
+![ScreenShot](/c/Users/HSY/Desktop/homework1_3.PNG)
 
