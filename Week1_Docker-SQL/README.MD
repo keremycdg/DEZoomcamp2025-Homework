@@ -6,7 +6,7 @@ What's the version of pip in the image?
 24.2.1
 23.3.1
 23.2.1
-<img src="https://github.com/user-attachments/assets/732cdb54-0f9d-4ca2-887a-7ab574517363" alt="requirements" width="600" height="300">![]()
+<img src="https://github.com/user-attachments/assets/732cdb54-0f9d-4ca2-887a-7ab574517363" width="600" height="300">![]()
 
 ### Question 2. Understanding Docker networking and docker-compose
 Given the following docker-compose.yaml, what is the hostname and port that pgadmin should use to connect to the postgres database?
@@ -48,5 +48,5 @@ db:5432 -----------Answer is db:5432----------
 
 ### Question 3
 
-![alt text](./Screenshots/homework1_3.PNG)
+![alt text](./Screenshots/homework1_3.PNG width="600" height="300")
 
