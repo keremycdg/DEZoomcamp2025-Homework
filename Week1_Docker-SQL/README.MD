@@ -47,5 +47,5 @@ postgres:5432
 db:5432 -----------Answer is db:5432----------
 
 ### Question 3
-
+![Alt text](C:\Users\HSY\Desktop\homework1_3.PNG)
 
