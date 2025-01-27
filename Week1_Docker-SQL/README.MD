@@ -45,3 +45,7 @@ localhost:5432
 db:5433
 postgres:5432
 db:5432 -----------Answer is db:5432----------
+
+### Question 3
+
+
