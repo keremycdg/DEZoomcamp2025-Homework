@@ -6,4 +6,4 @@ What's the version of pip in the image?
 24.2.1
 23.3.1
 23.2.1
-<img src="https://github.com/user-attachments/assets/732cdb54-0f9d-4ca2-887a-7ab574517363" alt="requirements" width="600" height="300">![Uploading homework1_1.PNG…]()
+<img src="https://github.com/user-attachments/assets/732cdb54-0f9d-4ca2-887a-7ab574517363" alt="requirements" width="600" height="300">![]()
