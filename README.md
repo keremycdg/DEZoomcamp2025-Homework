@@ -56,5 +56,5 @@ docker run -it \
   --name pg-admin \
   dpage/pgadmin4
 
-Week2:
+# Week2
 No personal notes, followed the modules.
