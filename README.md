@@ -1,6 +1,7 @@
 # DEZoomcamp2025-Homework
 Go to each directory respectively to see the answers, scripts, and screenshots of the outputs/codes.
 In this README file, I will display my personal notes for each week.
+Reference to the program: https://github.com/DataTalksClub/data-engineering-zoomcamp
 # Week1
 ### Setup Notes
 1-)First I set up the GCP and ssh
