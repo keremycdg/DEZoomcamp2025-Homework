@@ -1,0 +1,38 @@
+-- Question 2
+SELECT COUNT(DISTINCT PULocationID)
+FROM `ny-rides-kerem.homework.external_yellow_tripdata`;
+
+SELECT COUNT(DISTINCT PULocationID)
+FROM `ny-rides-kerem.homework.materialized_yellow_tripdata`;
+
+-- Question 3
+SELECT PULocationID
+FROM `ny-rides-kerem.homework.materialized_yellow_tripdata`;
+
+SELECT PULocationID, DOLocationID
+FROM `ny-rides-kerem.homework.materialized_yellow_tripdata`;
+
+-- Question 4 
+SELECT COUNT(*) AS num_zero_fares
+FROM `ny-rides-kerem.homework.materialized_yellow_tripdata`
+WHERE fare_amount = 0;
+
+-- Question 5
+CREATE OR REPLACE TABLE `ny-rides-kerem.homework.optimized_yellow_tripdata`
+PARTITION BY DATE(tpep_dropoff_datetime)
+CLUSTER BY VendorID AS
+SELECT *
+FROM `ny-rides-kerem.homework.materialized_yellow_tripdata`;
+
+-- Question 6
+SELECT DISTINCT VendorID
+FROM `ny-rides-kerem.homework.materialized_yellow_tripdata`
+WHERE tpep_dropoff_datetime BETWEEN '2024-03-01' AND '2024-03-15';
+
+SELECT DISTINCT VendorID
+FROM `ny-rides-kerem.homework.optimized_yellow_tripdata`
+WHERE tpep_dropoff_datetime BETWEEN '2024-03-01' AND '2024-03-15';
+
+-- Question 9
+SELECT COUNT(*)
+FROM `ny-rides-kerem.homework.materialized_yellow_tripdata`
