@@ -59,3 +59,6 @@ docker run -it \
 
 # Week2
 No personal notes, followed the modules.
+
+# Week3
+No personal notes, followed the modules.
